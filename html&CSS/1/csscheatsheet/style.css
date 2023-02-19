@@ -26,7 +26,24 @@ a:active {
 }
 
 a:visited {
-    color: brown;
+
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.button {
+    background-color: goldenrod;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+}
+
+.button:hover {
+    background: red;
+    color: #fff;
 }
 
 .box-1 {
@@ -62,11 +79,6 @@ a:visited {
     word-spacing: 1em;
 }
 
-.container {
-    width: 80%;
-    margin: auto;
-}
-
 .box-2 {
     border: 3px dotted #ccc;
     padding: 20px;
@@ -93,4 +105,20 @@ a:visited {
     border-bottom: dotted 1px #333;
     list-style-image: url('../media/pic.jpeg');
     padding-left: 20px;
+}
+
+.my-form {
+    padding: 20px;
+}
+
+.my-form .form-grop {
+    padding-bottom: 15px;
+}
+.my-form label {
+    display: block; 
+}
+
+.my-form input[type="text"], .my-form textarea {
+    padding: 8px;
+    width: 100%;
 }
